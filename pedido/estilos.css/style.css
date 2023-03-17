@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+*{
+
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{ 
+
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(130, 203, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.container{
+
+    width: 75%;
+    height: 110vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
+}
+
+.form{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 3rem;
+
+}
+
+.form-header{
+
+    margin-bottom: 1rem ;
+    display: flex;
+
+}
+
+.pedido-button{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.pedido-button button{
+
+    border: none;
+    background-color: rgb(130, 203, 245);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.pedido-button button a{
+
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+.input-group{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.input-box{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+
+}
+
+.input-box input{
+
+    margin: 0.2rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1px 1px 6px #0000001c;
+
+}

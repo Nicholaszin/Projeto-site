@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Detalhes do pedido</title>  
+</head>
+<body>
+    <div class="container">
+      <div class="form">
+        <form action="#">
+          
+          <div> 
+            <div class="form-header">
+              <div class="title">
+                <h1>Insira os dados</h1>
+              </div>
+            </div>
+  
+            <div class="input-group"> <!--grupo de dados-->
+              <div class="serviço">
+                <p>Escolha o serviço</p>
+                <div class="form-check"> <!--Escolha de dados, radio-->
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label" for="serviço">Faxina todos os cômodos</label>
+                </div>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label2" for="serviço">Faxina apenas em quartos</label>
+                </div>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label3" for="serviço">Faxina em áreas molhadas</label>
+                </div>
+              </div>
+              
+              <div classe="cômodos">
+                <div class="input-box">
+                  <label for="cômodos">Número de cômodos</label>
+                  <input id="cômodos" type="number" name="cômodos" required>
+                </div>
+              </div>
+              
+              <div class="gênero">
+                <p>Gênero do contratado</p>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label4" for="serviço">Feminino</label>
+                </div>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label5" for="serviço">Masculino</label>
+                </div>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="serviço" id="serviço" required>
+                  <label class="form-check-label6" for="serviço">Indifere</label>
+                </div>
+              </div>
+  
+              <div class="crianças">
+                <p>A casa possui crianças?</p>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="crianças" id="crianças" required>
+                  <label class="form-check-label7" for="crianças">Sim</label>
+                </div>
+                <div class="form-check"> 
+                  <input class="form-check-input" type="radio" name="crianças" id="crianças" required>
+                  <label class="form-check-label8" for="crianças">Não</label>
+                </div>
+              </div>
+          </div>
+          
+          <div>
+            <div class="input-box">
+              <label for="hora">Agendamento</label>
+              <input id="hora" type="datetime-local" name="hora" required>
+            </div>
+
+            <div class="input-box">
+              <label for="observações">Observações</label>
+              <input id="observações" type="text" name="observações" placeholder="Digite suas preferências">
+            </div>
+            
+            <div class="pagamento">
+              <p>Forma de pagamento</p>
+              <div class="form-check form-check-inline"> 
+                <input class="form-check-input" type="radio" name="pagamento" id="pagamento" required>
+                <label class="form-check-label9" for="pagamento">Pix</label>
+              </div>
+              <div class="form-check form-check-inline"> 
+                <input class="form-check-input" type="radio" name="pagamento" id="pagamento" required>
+                <label class="form-check-label10" for="pagamento">Dinheiro</label>
+              </div>
+              <div class="form-check form-check-inline"> 
+                <input class="form-check-input" type="radio" name="pagamento" id="pagamento" required>
+                <label class="form-check-label11" for="pagamento">Débito</label>
+              </div>
+              <div class="form-check form-check-inline"> 
+                <input class="form-check-input" type="radio" name="pagamento" id="pagamento" required>
+                <label class="form-check-label12" for="pagamento">Crédito</label>
+              </div>
+            </div>
+
+            <div>
+              <div class="localização">
+                <div class="input-box">
+                  <label for="observações">Endereço</label>
+                  <input id="observações" type="text" name="observações" placeholder="Digite seu endereço">
+                </div>
+              </div>
+  
+              <div class="localização">
+                <div class="input-box">
+                  <label for="observações">CEP</label>
+                  <input id="observações" type="text" name="observações" placeholder="Digite seu CEP">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+            
+
+            <div class="pedido-button">
+              <button><a href="#">Finalizar</a></button> <!--botão para ir à outra página-->
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+</html>
